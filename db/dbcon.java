@@ -9,7 +9,7 @@ public class dbcon {
 
         String url = "jdbc:mysql://localhost:3306/timemesg";
         String username = "root";
-        String password = "Akhil@123";
+        String password = "password";
 
         return DriverManager.getConnection(
             url, username, password
